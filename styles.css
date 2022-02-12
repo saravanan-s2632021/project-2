@@ -1,0 +1,63 @@
+body {
+  
+  margin: 0;
+  padding: 0;
+  
+  background-image: url("toys.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: mymove;
+  animation-duration: 200s;
+  animation-iteration-count: infinite;
+  
+
+}
+@keyframes mymove
+{
+  10% {background-color:red};
+  10% {background-color: brown;}
+  10% {background-color: blueviolet;}
+  10% {background-color: palevioletred;}
+  10% {background-color: rebeccapurple;}
+  10% {background-color: burlywood;}
+  10% {background-color: olivedrab;}
+  10% {background-color: orchid;}
+  10% {background-color: blanchedalmond;}
+  10% {background-color: yellowgreen;}
+
+}
+
+
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 120px;
+  height: 110px;
+  background: rgb(248, 248, 248);
+  display: inline-block;
+  margin: 15px;
+  border-radius: 0%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  top: -10px;
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  background: rgb(126, 154, 214);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+
+  
+}
+
